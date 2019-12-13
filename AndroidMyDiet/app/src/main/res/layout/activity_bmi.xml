@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/title"
+    android:fillViewport="true">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello "
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvWeight"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="50sp"
+            android:layout_marginLeft="20dp"
+            android:text=" Your Weight :"
+            android:textSize="30sp"
+            android:inputType="number"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvHeight"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="50sp"
+            android:layout_marginLeft="20dp"
+            android:text=" Your Height :"
+            android:textSize="30sp"
+            android:inputType="number"
+             />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvBMI"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="50sp"
+            android:hint=" Your BMI : "
+            android:layout_marginLeft="20dp"
+            android:text=" Your BMI :"
+            android:textSize="30sp"
+            android:inputType="number"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Doctor say "
+            android:textColor="#000000"
+            android:textSize="35dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvPicture"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textSize="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnChoose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:layout_marginLeft="70sp"
+            android:text="Eat"
+            android:background="#000000"
+            android:textColor="#fff"
+            android:textSize="20sp"/>
+
+       <Button
+           android:id="@+id/btnBack"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="25sp"
+           android:layout_marginLeft="50sp"
+           android:text="Back"
+           android:background="#000000"
+           android:textColor="#fff"
+           android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
